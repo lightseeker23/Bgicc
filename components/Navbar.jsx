@@ -5,7 +5,7 @@ export default function Navbar() {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between px-10 py-3 bg-white shadow-md relative">
+    <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-10 py-3 bg-white shadow-md">
       {/* Logo */}
       <div className="flex items-center gap-2">
         <img src={logo} alt="BGICC logo" className="h-14 w-auto" />
@@ -69,7 +69,7 @@ export default function Navbar() {
       </div>
       <a
         href="/partnerUs"
-        className="bg-[#003479] text-white px-3 py-3 font-medium rounded-full hover:bg-[#002d64] transition"
+        className="bg-[#003479] text-white px-3 py-3 font-medium rounded-xl hover:bg-[#002d64] transition"
       >
         Partner with us
       </a>
