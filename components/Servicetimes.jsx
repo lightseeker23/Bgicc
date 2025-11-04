@@ -23,8 +23,8 @@ export default function ServiceTimes() {
       title: "Times of Refreshing Communion",
       image: Cup,
       schedule: [
-        "(Every Wednesday)",
-        "Service Time (6:00pm - 8:00pm)",
+        "(Every Tuesday)",
+        "Service Time (5:00pm - 7:30pm)",
         "Time Zone: GMT+1",
       ],
       color: "from-green-500 to-teal-400",
@@ -33,7 +33,7 @@ export default function ServiceTimes() {
       title: "Women in Worship",
       image: Woman,
       schedule: [
-        "(Every Saturday)",
+        "(Every Thursday)",
         "Meeting Time (10:00am - 12:00noon)",
         "Time Zone: GMT+1",
       ],
@@ -43,8 +43,8 @@ export default function ServiceTimes() {
       title: "Church in the House",
       image: CITH,
       schedule: [
-        "(Every Friday)",
-        "Meeting Time (6:00pm - 7:30pm)",
+        "(Every Saturday)",
+        "Meeting Time (5:00pm - 6:00pm)",
         "Time Zone: GMT+1",
       ],
       color: "from-sky-500 to-cyan-400",
