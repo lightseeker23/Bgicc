@@ -5,6 +5,7 @@ import AboutUs from "../components/AboutUs.jsx";
 import newImg from "/assets/new.jpg";
 import programmes from "/assets/programmes.jpg";
 import partnership from "/assets/partnership.jpg";
+import Membership from "../components/Membership.jsx"
 
 
 export default function Home() {
@@ -13,10 +14,12 @@ export default function Home() {
         <Carousel />
         <ServiceTimes />
         <AboutUs />
+        
+        {/*This is for the Block for New members*/}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 bg-[#FBD38D] px-10 py-12">
   {[
-    { title: "I'm New Here", img: newImg },
-    { title: "Upcoming Programmes", img: programmes },
+    { title: "I'm New Here", img : newImg },
+    { title: "Upcoming Programmes", img : programmes },
     { title: "BGICC NAPHTALI Partnership", img: partnership },
   ].map((item, index) => (
     <div
@@ -41,8 +44,8 @@ export default function Home() {
           </div>
         </div>
       ))}
-    </div>
-
-      </>
+      </div>
+     <Membership/>
+     </>
   );
 }

@@ -27,7 +27,7 @@ export default function Carousel() {
   const prevSlide = () => setCurrent((current - 1 + length) % length);
 
   return (
-    <div className="relative w-full h-[500px] overflow-hidden rounded-lg shadow-lg">
+    <div className="relative w-full h-[700px] overflow-hidden rounded-lg shadow-lg">
       {/* Images */}
       {images.map((img, index) => (
         <div
