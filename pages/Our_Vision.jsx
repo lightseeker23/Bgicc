@@ -25,8 +25,8 @@ export default function OurVision() {
   return (
     <section className="bg-white py-12">
       {/* Header */}
-      <div className="bg-[#003479] pt-10 pb-5 text-center text-white font-bold text-4xl">
-        About Us
+      <div className="bg-linear-to-b from-indigo-900 to-[#003479] text-white pt-10 pb-5 text-center shadow-md mb-10">
+        <h1 className="text-4xl font-bold">About Us</h1>
       </div>
 
       {/* Cards */}

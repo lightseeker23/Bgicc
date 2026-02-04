@@ -33,7 +33,7 @@ export default function Membership() {
             key={i}
             className={`w-[340px] h-[420px] rounded-xl shadow-lg p-8 flex flex-col items-center justify-between transition-transform duration-300 ${
               cls.primary
-                ? "bg-[#07037e] text-white"
+                ? "bg-[#003479] text-white"
                 : "bg-white text-black"
             }`}
           >
@@ -47,8 +47,8 @@ export default function Membership() {
             <button
               className={`w-full py-3 rounded-md font-medium transition ${
                 cls.primary
-                  ? "bg-white text-[#07037e] hover:bg-gray-100"
-                  : "bg-[#07037e] text-white hover:bg-[#002d64]"
+                  ? "bg-white text-[#003479] hover:bg-gray-100"
+                  : "bg-[#003479] text-white hover:bg-[#002d64]"
               }`}
             >
               Join Class

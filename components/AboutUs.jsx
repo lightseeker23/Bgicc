@@ -19,9 +19,9 @@ export default function AboutUs() {
             Our mission is to glorify Jesus Christ by making disciples, spreading His love,
             and equipping people to live out their God-given purpose.
           </p>
-          <button className="bg-[#0b04aa] text-white px-6 py-2 rounded-md hover:bg-[#07037e] transition">
+          <a href="/Who_we_are" className="bg-[#003479] text-white px-6 py-2 rounded-md transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-blue-900">
             Read More
-          </button>
+          </a>
         </div>
 
         {/* Right Image Section */}

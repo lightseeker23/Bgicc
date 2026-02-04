@@ -3,7 +3,7 @@ import Door from "/assets/Door.png";
 import Cup from "/assets/Cup.png";
 import CITH from "/assets/Church In The House.png";
 import Woman from "/assets/Woman.png";
-import pastor from "/assets/pastor.jpg";
+import pastor from "/assets/pastor.svg";
 
 export default function ServiceTimes() {
   const services = [
@@ -79,18 +79,18 @@ export default function ServiceTimes() {
               </div>
 
               {/* Hover View */}
-<div className="hidden group-hover:flex flex-col justify-start h-full p-5 cursor-pointer">
-  <div className="flex justify-between items-start">
-    <h3 className="text-lg font-semibold text-left">{service.title}</h3>
-    <img src={service.image} alt={service.title} className="w-10 h-10 object-contain" />
-  </div>
+        <div className="hidden group-hover:flex flex-col justify-start h-full p-5 cursor-pointer">
+          <div className="flex justify-between items-start">
+            <h3 className="text-lg font-semibold text-left">{service.title}</h3>
+            <img src={service.image} alt={service.title} className="w-10 h-10 object-contain" />
+          </div>
 
-  <div className="bg-white/10 mt-4 rounded-xl p-4 text-sm text-center flex flex-col justify-center h-40">
-    {service.schedule.map((line, j) => (
-      <p key={j}>{line}</p>
-    ))}
-  </div>
-</div>
+          <div className="bg-white/10 mt-4 rounded-xl p-4 text-sm text-center flex flex-col justify-center h-40">
+            {service.schedule.map((line, j) => (
+              <p key={j}>{line}</p>
+            ))}
+          </div>
+        </div>
 
             </div>
           ))}

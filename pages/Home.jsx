@@ -46,6 +46,8 @@ export default function Home() {
       ))}
       </div>
      <Membership/>
+
+
      </>
   );
 }
